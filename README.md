@@ -34,12 +34,14 @@ frontend-tp2/
 ├── src/
 │   ├── components/
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
+│   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
 │   │   ├── ui/              # Componentes base: Button, Card, Input, Badge
 │   │   └── ThemeToggle.jsx  # Botón de modo día / noche
 │   ├── data/                # Datos locales en JSON
 │   ├── pages/               # Una página por ruta
-│   ├── hooks/
-│   │   └── useTheme.js      # Manejo del modo oscuro
+│   ├── hooks/               # useTheme (modo oscuro), usePokemonRound (estados de la API)
+│   ├── services/            # Consultas a APIs externas
+│   ├── utils/               # Funciones auxiliares (cálculo de eficacia)
 │   ├── styles/
 │   │   └── clefairy-theme.css  # Tema de Tailwind CSS v4
 │   ├── App.jsx      # Componente principal

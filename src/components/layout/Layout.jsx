@@ -32,7 +32,7 @@ function Layout() {
         <button
           type="button"
           onClick={() => setMenuOpen(true)}
-          className="btn btn-secondary !px-4 !py-2"
+          className="btn btn-secondary px-4! py-2!"
           aria-label="Abrir menú"
           aria-expanded={menuOpen}
           aria-controls={SIDEBAR_ID}

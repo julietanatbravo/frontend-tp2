@@ -1,0 +1,23 @@
+[
+  {
+    "id": "facil",
+    "label": "Fácil",
+    "description": "Ves los Pokémon y sus tipos",
+    "hideTypes": false,
+    "hideIdentity": false
+  },
+  {
+    "id": "medio",
+    "label": "Medio",
+    "description": "Ves los Pokémon, pero no sus tipos",
+    "hideTypes": true,
+    "hideIdentity": false
+  },
+  {
+    "id": "dificil",
+    "label": "Difícil",
+    "description": "Siluetas, sin nombre ni tipos",
+    "hideTypes": true,
+    "hideIdentity": true
+  }
+]

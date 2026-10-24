@@ -8,7 +8,7 @@ function ThemeToggle() {
   return (
     <Button
       variant="secondary"
-      className="!px-4 !py-2"
+      className="px-4! py-2!"
       onClick={toggleTheme}
       aria-label={isDark ? 'Cambiar a modo día' : 'Cambiar a modo noche'}
     >

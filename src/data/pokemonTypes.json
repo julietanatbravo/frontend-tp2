@@ -1,0 +1,20 @@
+{
+  "normal": { "label": "Normal", "color": "#A8A77A", "text": "#1B1B1B" },
+  "fire": { "label": "Fuego", "color": "#EE8130", "text": "#1B1B1B" },
+  "water": { "label": "Agua", "color": "#6390F0", "text": "#1B1B1B" },
+  "electric": { "label": "Eléctrico", "color": "#F7D02C", "text": "#1B1B1B" },
+  "grass": { "label": "Planta", "color": "#7AC74C", "text": "#1B1B1B" },
+  "ice": { "label": "Hielo", "color": "#96D9D6", "text": "#1B1B1B" },
+  "fighting": { "label": "Lucha", "color": "#C22E28", "text": "#FFFFFF" },
+  "poison": { "label": "Veneno", "color": "#A33EA1", "text": "#FFFFFF" },
+  "ground": { "label": "Tierra", "color": "#E2BF65", "text": "#1B1B1B" },
+  "flying": { "label": "Volador", "color": "#A98FF3", "text": "#1B1B1B" },
+  "psychic": { "label": "Psíquico", "color": "#F95587", "text": "#1B1B1B" },
+  "bug": { "label": "Bicho", "color": "#A6B91A", "text": "#1B1B1B" },
+  "rock": { "label": "Roca", "color": "#B6A136", "text": "#1B1B1B" },
+  "ghost": { "label": "Fantasma", "color": "#735797", "text": "#FFFFFF" },
+  "dragon": { "label": "Dragón", "color": "#6F35FC", "text": "#FFFFFF" },
+  "dark": { "label": "Siniestro", "color": "#705746", "text": "#FFFFFF" },
+  "steel": { "label": "Acero", "color": "#B7B7CE", "text": "#1B1B1B" },
+  "fairy": { "label": "Hada", "color": "#D685AD", "text": "#1B1B1B" }
+}
