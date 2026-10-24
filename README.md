@@ -33,8 +33,11 @@ frontend-tp2/
 ├── public/          # Archivos estáticos
 ├── src/
 │   ├── components/
+│   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── ui/              # Componentes base: Button, Card, Input, Badge
 │   │   └── ThemeToggle.jsx  # Botón de modo día / noche
+│   ├── data/                # Datos locales en JSON
+│   ├── pages/               # Una página por ruta
 │   ├── hooks/
 │   │   └── useTheme.js      # Manejo del modo oscuro
 │   ├── styles/
@@ -43,6 +46,7 @@ frontend-tp2/
 │   ├── main.jsx     # Punto de entrada
 │   └── index.css    # CSS principal (importa el tema)
 ├── index.html
+├── vercel.json      # Redirige todas las rutas a index.html (React Router)
 ├── vite.config.js
 └── package.json
 ```
