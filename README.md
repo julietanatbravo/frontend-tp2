@@ -31,11 +31,14 @@ npm install
 ```
 frontend-tp2/
 ├── public/          # Archivos estáticos
+├── scripts/
+│   └── component-tree.js  # Genera el árbol de componentes desde el código (plugin de Vite)
 ├── src/
 │   ├── components/
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
-│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge
+│   │   ├── tree/            # Árbol de componentes (TreeNode, TreeLegend)
+│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, ConfirmDialog, Disclosure
 │   │   └── ThemeToggle.jsx  # Botón de modo día / noche
 │   ├── data/                # Datos locales en JSON
 │   ├── pages/               # Una página por ruta

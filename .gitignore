@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generado por scripts/component-tree.js en cada dev/build
+src/data/componentTree.json
