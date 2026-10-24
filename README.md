@@ -32,11 +32,16 @@ npm install
 frontend-tp2/
 ├── public/          # Archivos estáticos
 ├── src/
-│   ├── assets/      # Imágenes y recursos
+│   ├── components/
+│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge
+│   │   └── ThemeToggle.jsx  # Botón de modo día / noche
+│   ├── hooks/
+│   │   └── useTheme.js      # Manejo del modo oscuro
+│   ├── styles/
+│   │   └── clefairy-theme.css  # Tema de Tailwind CSS v4
 │   ├── App.jsx      # Componente principal
-│   ├── App.css
 │   ├── main.jsx     # Punto de entrada
-│   └── index.css
+│   └── index.css    # CSS principal (importa el tema)
 ├── index.html
 ├── vite.config.js
 └── package.json

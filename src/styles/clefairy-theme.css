@@ -1,0 +1,278 @@
+/* =========================================================
+   Clefairy Theme — Tailwind CSS v4
+   Uso: importa este archivo en tu CSS principal (ej. src/index.css
+   o app/globals.css) en reemplazo del import de Tailwind: ya lo incluye.
+   Modo oscuro: agrega la clase `dark` al <html>.
+   Fuentes: Fredoka y Nunito se cargan con <link> en index.html.
+   ========================================================= */
+
+@import "tailwindcss";
+
+/* Modo oscuro por clase (.dark en <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Paleta base (colores fijos) ---------- */
+@theme {
+  --color-pink: #F4B6C2;       /* Rosa Clefairy  */
+  --color-pink-deep: #BE4A74;  /* Rosa profundo  */
+  --color-mauve: #D685AD;      /* Malva hada     */
+  --color-cocoa: #5B3A2E;      /* Marrón oreja   */
+  --color-cream: #FFF6E8;      /* Crema lunar    */
+  --color-blush: #FDE4EA;      /* Rubor          */
+  --color-night: #2B2D52;      /* Noche Mt. Moon */
+  --color-moonstone: #F7E08A;  /* Piedra lunar   */
+
+  --font-display: "Fredoka", ui-rounded, system-ui, sans-serif;
+  --font-sans: "Nunito", ui-rounded, system-ui, sans-serif;
+
+  /* Escala tipográfica (ratio 1.25) */
+  --text-h1: 2.5rem;     --text-h1--line-height: 1.15;
+  --text-h2: 2rem;       --text-h2--line-height: 1.2;
+  --text-h3: 1.5625rem;  --text-h3--line-height: 1.3;
+  --text-body: 1rem;     --text-body--line-height: 1.6;
+  --text-small: 0.8125rem; --text-small--line-height: 1.4;
+
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 6px 20px rgb(190 74 116 / 0.15);
+  --shadow-soft-lg: 0 12px 32px rgb(190 74 116 / 0.22);
+
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --animate-sway: sway 0.7s var(--ease-bounce);
+  --animate-twinkle: twinkle 2.2s ease-in-out infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-fade-up: fade-up 0.7s var(--ease-bounce) both;
+  --animate-spin-slow: spin 40s linear infinite;
+
+  @keyframes sway {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-6deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-2deg); }
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.25; transform: scale(0.7) rotate(0deg); }
+    50% { opacity: 1; transform: scale(1.15) rotate(20deg); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-18px) rotate(4deg); }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Balanceo suave para .btn-primary: menos giro y solo 1px de subida */
+@keyframes sway-soft {
+  0%, 100% { transform: translateY(-1px) rotate(0deg); }
+  25% { transform: translateY(-1px) rotate(-1.5deg); }
+  50% { transform: translateY(-1px) rotate(1deg); }
+  75% { transform: translateY(-1px) rotate(-0.5deg); }
+}
+
+/* ---------- Tokens semánticos (cambian con el modo) ---------- */
+:root {
+  --bg: #FFF6E8;
+  --surface: #FDE4EA;
+  --surface-strong: #FFFFFF;
+  --fg: #5B3A2E;
+  --fg-muted: #8A6457;
+  --primary: #BE4A74;
+  --primary-fg: #FFFFFF;
+  --primary-soft: #F4B6C2;
+  --secondary: #D685AD;
+  --accent: #F7E08A;
+  --accent-fg: #5B3A2E;
+  --border: #F4B6C2;
+  --ring: #D685AD;
+}
+
+.dark {
+  --bg: #2B2D52;
+  --surface: #363968;
+  --surface-strong: #40437A;
+  --fg: #FFF6E8;
+  --fg-muted: #C9C3DD;
+  --primary: #F4B6C2;
+  --primary-fg: #2B2D52;
+  --primary-soft: #5A4A7A;
+  --secondary: #D685AD;
+  --accent: #F7E08A;
+  --accent-fg: #2B2D52;
+  --border: #4E5190;
+  --ring: #F4B6C2;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-primary: var(--primary);
+  --color-primary-fg: var(--primary-fg);
+  --color-primary-soft: var(--primary-soft);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+}
+
+/* ---------- Base ---------- */
+@layer base {
+  html { color-scheme: light; }
+  html.dark { color-scheme: dark; }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; }
+  h1 { font-size: var(--text-h1); line-height: 1.15; }
+  h2 { font-size: var(--text-h2); line-height: 1.2; }
+  h3 { font-size: var(--text-h3); line-height: 1.3; font-weight: 500; }
+
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  /* Transición suave al cambiar entre modo día y noche */
+  body, .card, .input, .btn {
+    transition-property: background-color, border-color, color, box-shadow, transform;
+    transition-duration: 300ms;
+  }
+
+  /* Respeta la preferencia de "reducir movimiento" del sistema */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ---------- Componentes ---------- */
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-pill);
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 250ms var(--ease-bounce), scale 150ms ease, box-shadow 250ms ease, background-color 200ms ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn:active { transform: translateY(0) scale(0.97); }
+
+  .btn-primary {
+    background-color: var(--primary);
+    color: var(--primary-fg);
+    box-shadow: var(--shadow-soft);
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-soft-lg);
+    animation: sway-soft 0.7s var(--ease-bounce);
+  }
+  /* `scale` se suma al transform de la animación en vez de reemplazarlo,
+     así el clic se nota aunque el balanceo esté corriendo */
+  .btn-primary:active { scale: 0.97; }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--fg);
+    border: 2px solid var(--primary-soft);
+  }
+  .btn-secondary:hover { background-color: var(--surface); }
+
+  .card {
+    background-color: var(--surface-strong);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-card);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-soft);
+  }
+  /* Tarjeta que "flota" al pasar el mouse */
+  .card-hover {
+    transition: transform 350ms var(--ease-bounce), box-shadow 300ms ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-soft-lg);
+  }
+
+  /* Links de navegación: píldora con fondo al pasar y estado activo */
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--radius-pill);
+    font-weight: 600;
+    color: var(--fg-muted);
+    text-decoration: none;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+  .nav-link:hover { background-color: var(--surface); color: var(--fg); }
+  .nav-link[aria-current="page"] { background-color: var(--surface); color: var(--primary); }
+
+  /* Links dentro de texto */
+  .link {
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-soft);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    transition: text-decoration-color 200ms ease;
+  }
+  .link:hover { text-decoration-color: var(--primary); }
+
+  /* Chip de código */
+  .code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.85em;
+    padding: 0.1rem 0.45rem;
+    border-radius: 0.5rem;
+    background-color: var(--surface);
+    color: var(--primary);
+  }
+
+  .input {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--border);
+    background-color: var(--surface-strong);
+    color: var(--fg);
+    transition: border-color 200ms ease;
+  }
+  .input::placeholder { color: var(--fg-muted); }
+  .input:focus { border-color: var(--secondary); outline: none; }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.75rem;
+    border-radius: var(--radius-pill);
+    font-size: var(--text-small);
+    font-weight: 700;
+    background-color: var(--accent);
+    color: var(--accent-fg);
+  }
+}
