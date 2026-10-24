@@ -37,12 +37,13 @@ frontend-tp2/
 │   ├── components/
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
+│   │   ├── songs/           # Listado de canciones (SongCard, SongFilters)
 │   │   ├── tree/            # Árbol de componentes (TreeNode, TreeLegend)
-│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, ConfirmDialog, Disclosure
+│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, ConfirmDialog, Disclosure, SegmentedControl
 │   │   └── ThemeToggle.jsx  # Botón de modo día / noche
 │   ├── data/                # Datos locales en JSON
 │   ├── pages/               # Una página por ruta
-│   ├── hooks/               # useTheme (modo oscuro), usePokemonRound (estados de la API)
+│   ├── hooks/               # useTheme (modo oscuro), usePokemonRound (estados de la API), useAudioPreview
 │   ├── services/            # Consultas a APIs externas
 │   ├── utils/               # Funciones auxiliares (cálculo de eficacia)
 │   ├── styles/
