@@ -119,6 +119,16 @@
   {
     "id": 13,
     "fecha": "2026-10-24",
+    "titulo": "Ilustraciones propias",
+    "resumen": "Reemplacé la luna genérica del tema por ilustraciones hechas para el sitio.",
+    "hice": "Sumé una ilustración nueva en la portada (luna, vinilo, pokébola, código y notas musicales), un logo para el equipo y un dibujo en el encabezado de cada sección.",
+    "decidi": "Hacerlas en SVG con la paleta del tema y armarlas con piezas reutilizables (vinilo, pokébola, nota, destello), para que todas las secciones se vean del mismo estilo y funcionen en modo claro y oscuro.",
+    "resolvi": "En modo oscuro el vinilo se perdía contra el fondo: le agregué un borde rosa que aparece solo en ese modo.",
+    "tags": ["Diseño", "IA"]
+  },
+  {
+    "id": 14,
+    "fecha": "2026-10-24",
     "titulo": "Cómo usé la IA",
     "resumen": "Trabajé con Claude Code dentro de VS Code.",
     "hice": "Usé Claude Code (la aplicación) con el modelo Claude Opus 5.5 para escribir y probar el código. Yo definí qué construir, el contenido y las decisiones de diseño, y fui probando cada parte en el navegador.",

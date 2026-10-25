@@ -1,4 +1,5 @@
 import PageHeader from '../components/PageHeader'
+import { TreeIllustration } from '../components/illustrations/SectionIllustrations'
 import TreeLegend from '../components/tree/TreeLegend'
 import TreeNode from '../components/tree/TreeNode'
 import Card from '../components/ui/Card'
@@ -8,7 +9,7 @@ import tree from '../data/componentTree.json'
 function ComponentTree() {
   return (
     <>
-      <PageHeader eyebrow="Estructura" title="Árbol de componentes">
+      <PageHeader eyebrow="Estructura" title="Árbol de componentes" illustration={<TreeIllustration />}>
         Cómo se arma la aplicación: qué componentes renderiza cada uno, desde App hasta las
         tarjetas. Tocá un componente para abrir o cerrar sus hijos.
       </PageHeader>

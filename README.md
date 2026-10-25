@@ -88,7 +88,8 @@ frontend-tp2/
 │   └── component-tree.js  # Genera el árbol de componentes desde el código (plugin de Vite)
 ├── src/
 │   ├── components/
-│   │   ├── home/          # Portada (MemberCard, SectionCard, MoonIllustration)
+│   │   ├── home/          # Portada (MemberCard, SectionCard)
+│   │   ├── illustrations/ # Ilustraciones SVG propias: portada, logo y encabezados de sección
 │   │   ├── layout/        # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── log/           # Bitácora (LogEntry)
 │   │   ├── pokemon/       # Juego "¿Es eficaz?" (PokéAPI)
@@ -115,6 +116,6 @@ frontend-tp2/
 
 | Integrante | Aplicación | Modelo | En qué tareas |
 | --- | --- | --- | --- |
-| Julieta Natalia Bravo | Claude Code (extensión de VS Code) | Claude Opus 5.5 | Escritura y prueba del código de todas las secciones, armado de los datos de las canciones desde el catálogo de iTunes, borrador de las entradas de la bitácora y de este README |
+| Julieta Natalia Bravo | Claude Code (extensión de VS Code) | Claude Opus 5.5 | Escritura y prueba del código de todas las secciones, armado de los datos de las canciones desde el catálogo de iTunes, ilustraciones SVG (portada, logo y encabezados de sección), borrador de las entradas de la bitácora y de este README |
 
 Las decisiones de qué construir, el contenido del perfil y las elecciones de diseño fueron propias. Cada parte se probó en el navegador y las entradas de la bitácora se revisaron antes de publicarlas.

@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 import MemberCard from '../components/home/MemberCard'
-import MoonIllustration from '../components/home/MoonIllustration'
+import HeroIllustration from '../components/illustrations/HeroIllustration'
 import SectionCard from '../components/home/SectionCard'
 import Badge from '../components/ui/Badge'
 import equipo from '../data/equipo.json'
@@ -51,7 +51,7 @@ function Home() {
           </div>
         </div>
 
-        <MoonIllustration />
+        <HeroIllustration />
       </section>
 
       <section id="integrantes" className="scroll-mt-20">

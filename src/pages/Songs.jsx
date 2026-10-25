@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
+import { SongsIllustration } from '../components/illustrations/SectionIllustrations'
 import SongCard from '../components/songs/SongCard'
 import SongDetail from '../components/songs/SongDetail'
 import SongFilters from '../components/songs/SongFilters'
@@ -41,7 +42,7 @@ function Songs() {
 
   return (
     <>
-      <PageHeader eyebrow="Datos locales" title="Mis 20 canciones">
+      <PageHeader eyebrow="Datos locales" title="Mis 20 canciones" illustration={<SongsIllustration />}>
         Mi top de favoritas de Los Redondos, Duki y Soda Stereo. Tocá ▶ para escuchar un fragmento
         de 30 segundos.
       </PageHeader>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
+import { LogIllustration } from '../components/illustrations/SectionIllustrations'
 import LogEntry from '../components/log/LogEntry'
 import Button from '../components/ui/Button'
 import SegmentedControl from '../components/ui/SegmentedControl'
@@ -51,7 +52,7 @@ function Log() {
 
   return (
     <>
-      <PageHeader eyebrow="Proceso" title="Bitácora">
+      <PageHeader eyebrow="Proceso" title="Bitácora" illustration={<LogIllustration />}>
         Qué hice, qué decidí y qué dificultades resolví en cada etapa. Tocá una entrada para verla
         completa.
       </PageHeader>
