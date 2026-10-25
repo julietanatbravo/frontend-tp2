@@ -37,11 +37,12 @@ frontend-tp2/
 │   ├── components/
 │   │   ├── home/            # Portada (MemberCard, SectionCard, MoonIllustration)
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
+│   │   ├── log/             # Bitácora (LogEntry)
 │   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
 │   │   ├── profile/         # Perfil de integrante (FavoritePokemon, FavoriteList)
-│   │   ├── songs/           # Listado de canciones (SongCard, SongFilters)
+│   │   ├── songs/           # Listado de canciones (SongCard, SongDetail, SongFilters, PlayButton)
 │   │   ├── tree/            # Árbol de componentes (TreeNode, TreeLegend)
-│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, ConfirmDialog, Disclosure, SegmentedControl
+│   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, Modal, ConfirmDialog, Disclosure, SegmentedControl
 │   │   └── ThemeToggle.jsx  # Botón de modo día / noche
 │   ├── data/                # Datos locales en JSON
 │   ├── pages/               # Una página por ruta

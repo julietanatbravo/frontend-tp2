@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-10-24",
+    "titulo": "Arranque del proyecto en React",
+    "resumen": "Creé el repositorio nuevo del TP2 con Vite y React.",
+    "hice": "Armé el proyecto con la plantilla de Vite para React, con ESLint y un README básico, en un repositorio separado del TP1.",
+    "decidi": "Usar Vite 6 en lugar de la última versión: Vite 7 pide Node 20.19 o más y yo tengo Node 20.18. Así no tuve que actualizar Node para arrancar.",
+    "tags": ["Herramientas"]
+  },
+  {
+    "id": 2,
+    "fecha": "2026-10-24",
+    "titulo": "Tema visual Clefairy",
+    "resumen": "Apliqué un tema propio de Tailwind CSS v4: rosa, lunar y redondeado.",
+    "hice": "Instalé Tailwind CSS v4 y apliqué el tema Clefairy: paleta rosa y crema, tipografías Fredoka y Nunito, y componentes base (Button, Card, Input, Badge).",
+    "decidi": "Usar los colores semánticos del tema (fondo, superficie, texto, primario) en vez de colores fijos, así el modo oscuro funciona solo en todas las pantallas.",
+    "resolvi": "Al recargar en modo oscuro se veía un instante el tema claro. Lo resolví con un script corto en index.html que aplica el tema guardado antes de que cargue React.",
+    "tags": ["Diseño"]
+  },
+  {
+    "id": 3,
+    "fecha": "2026-10-24",
+    "titulo": "Navegación con sidebar",
+    "resumen": "React Router con una sidebar compartida que marca la sección activa.",
+    "hice": "Configuré las rutas con React Router y armé el Layout con la sidebar: muestra la identidad del equipo, las secciones y cuál está activa. En celular se convierte en un panel que se abre con ☰.",
+    "decidi": "Agregar un vercel.json que manda todas las rutas a index.html, para poder entrar directo a una sección o recargarla sin que Vercel devuelva un 404.",
+    "resolvi": "El panel de celular se cierra con Escape, tocando el fondo o al elegir una sección, y mientras está abierto la página de atrás no scrollea.",
+    "tags": ["Navegación", "Accesibilidad"]
+  },
+  {
+    "id": 4,
+    "fecha": "2026-10-24",
+    "titulo": "Juego “¿Es eficaz?” con la PokéAPI",
+    "resumen": "Dos Pokémon al azar y hay que adivinar cuánto daño hace el ataque.",
+    "hice": "Armé el juego con dos endpoints de la PokéAPI: uno para los Pokémon y otro para las relaciones de daño de cada tipo. Tiene mensaje de carga, mensaje de error con reintento y marcador de aciertos y rachas.",
+    "decidi": "Sumar tres niveles de dificultad (en el difícil se ven siluetas) con puntaje separado por nivel. Si hay una partida en curso, cambiar de nivel pide confirmación para no perderla sin querer.",
+    "resolvi": "Si se pide otra ronda antes de que termine la anterior, la consulta vieja se cancela con AbortController, así una respuesta tardía no pisa a la nueva.",
+    "tags": ["API"]
+  },
+  {
+    "id": 5,
+    "fecha": "2026-10-24",
+    "titulo": "Pulido del juego",
+    "resumen": "Ajusté detalles que se notaban al probarlo.",
+    "hice": "Suavicé la animación del botón principal, que se movía demasiado, y arreglé que no tuviera efecto al hacer clic.",
+    "decidi": "La explicación de qué aporta la PokéAPI es para quien corrige, no para quien juega: la pasé a un desplegable discreto al pie de la sección.",
+    "resolvi": "El efecto de clic no andaba porque la regla del hover le ganaba. Lo cambié a la propiedad scale, que se suma a la animación en vez de reemplazarla.",
+    "tags": ["Diseño", "API"]
+  },
+  {
+    "id": 6,
+    "fecha": "2026-10-24",
+    "titulo": "Árbol de componentes generado desde el código",
+    "resumen": "El árbol no está escrito a mano: lo arma un script en cada build.",
+    "hice": "Escribí un script que lee los archivos .jsx con @babel/parser, detecta qué componentes propios renderiza cada uno y guarda el árbol en un JSON. La sección lo muestra con desplegables.",
+    "decidi": "Generarlo automáticamente en vez de dibujarlo a mano, para que siempre coincida con el código entregado aunque siga agregando secciones.",
+    "resolvi": "Las páginas se definen en App pero se muestran dentro del Outlet del Layout. El script las cuelga del Layout para que el árbol refleje lo que realmente se renderiza.",
+    "tags": ["Componentes", "Herramientas"]
+  },
+  {
+    "id": 7,
+    "fecha": "2026-10-24",
+    "titulo": "Top 20 de canciones",
+    "resumen": "Un JSON con 20 canciones de Los Redondos, Duki y Soda Stereo.",
+    "hice": "Armé el listado con búsqueda por título, artista o álbum (sin importar tildes ni mayúsculas) y filtro por artista, con mensaje cuando no hay resultados.",
+    "decidi": "La API de Spotify pide una clave privada que quedaría expuesta en el navegador, así que tomé los datos, portadas y fragmentos de 30 segundos del catálogo público de iTunes y los guardé en el JSON.",
+    "resolvi": "“Pabellón séptimo” no aparecía en el catálogo porque es del Indio Solari solista, no de Los Redondos: la cambié por “Mi perro dinamita”. “Givenchy” y “Rockstar” de Duki tampoco estaban, así que elegí otros dos temas.",
+    "tags": ["Datos"]
+  },
+  {
+    "id": 8,
+    "fecha": "2026-10-24",
+    "titulo": "El audio que no sonaba",
+    "resumen": "Los fragmentos no se escuchaban al probarlos desde VS Code.",
+    "hice": "Agregué estados al botón de escuchar: “Cargando…” mientras baja el audio y “No se pudo reproducir” con opción de reintentar si falla. Antes el error pasaba sin aviso.",
+    "decidi": "Sacar el botón de Spotify: sin el ID de cada canción solo podía mandar a la búsqueda web, y Spotify redirigía a otro lado.",
+    "resolvi": "El problema era el navegador integrado de VS Code, que no trae los códecs de audio AAC. En Chrome los fragmentos funcionan bien.",
+    "tags": ["Datos", "Herramientas"]
+  },
+  {
+    "id": 9,
+    "fecha": "2026-10-24",
+    "titulo": "Migración del TP1 a React",
+    "resumen": "Pasé la portada y mi perfil del TP1 a componentes de React.",
+    "hice": "Migré lo que había en el TP1 (mi perfil con foto, datos, habilidades, favoritos y la pokébola) de HTML y JavaScript a componentes de React con los estilos del sitio nuevo.",
+    "decidi": "Pasar el contenido del perfil a un JSON (integrantes.json), así el perfil, la portada y la sidebar se arman desde los mismos datos.",
+    "resolvi": "La pokébola reutiliza la misma función que consulta la PokéAPI en el juego, así no hay código repetido. Conservé lo que ya funcionaba: tiembla un mínimo de tiempo y nunca repite el Pokémon anterior.",
+    "tags": ["Componentes", "Datos"]
+  },
+  {
+    "id": 10,
+    "fecha": "2026-10-24",
+    "titulo": "Portada para un solo integrante",
+    "resumen": "Adapté la portada del TP1 para que no quede vacía con una sola persona.",
+    "hice": "Armé la portada con una presentación propia (nombre del equipo, descripción e ilustración de la luna), la tarjeta del integrante y accesos a cada sección.",
+    "decidi": "Como esta entrega es individual, la tarjeta del integrante se muestra grande y horizontal. Si se suman integrantes al JSON, pasa a una grilla sola.",
+    "tags": ["Diseño", "Navegación"]
+  },
+  {
+    "id": 11,
+    "fecha": "2026-10-24",
+    "titulo": "Detalle por canción",
+    "resumen": "Cada canción tiene una vista ampliada con más datos.",
+    "hice": "Sumé un modal con la portada grande, fecha de lanzamiento, número de pista, género, enlace a Apple Music y el reproductor.",
+    "decidi": "Separar un componente Modal base y usarlo tanto para la confirmación del juego como para este detalle.",
+    "resolvi": "Apple guarda el 1 de enero como fecha cuando solo conoce el año del disco. En ese caso muestro solo el año, para no inventar una fecha.",
+    "tags": ["Datos", "Componentes"]
+  },
+  {
+    "id": 12,
+    "fecha": "2026-10-24",
+    "titulo": "Bitácora con desplegables y filtros",
+    "resumen": "Esta sección: entradas desplegables y filtro por tag.",
+    "hice": "Pasé la bitácora a un JSON. Cada entrada se despliega para ver qué hice, qué decidí y qué resolví, y se puede filtrar por tag.",
+    "decidi": "No traer las entradas de la bitácora del TP1 y empezar esta de cero, contando solo la migración.",
+    "tags": ["Componentes"]
+  },
+  {
+    "id": 13,
+    "fecha": "2026-10-24",
+    "titulo": "Cómo usé la IA",
+    "resumen": "Trabajé con Claude Code dentro de VS Code.",
+    "hice": "Usé Claude Code (la aplicación) con el modelo Claude Opus 5.5 para escribir y probar el código. Yo definí qué construir, el contenido y las decisiones de diseño, y fui probando cada parte en el navegador.",
+    "tags": ["IA"]
+  }
+]
