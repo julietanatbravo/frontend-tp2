@@ -23,7 +23,7 @@
     "fecha": "2026-10-24",
     "titulo": "Navegación con sidebar",
     "resumen": "React Router con una sidebar compartida que marca la sección activa.",
-    "hice": "Configuré las rutas con React Router y armé el Layout con la sidebar: muestra la identidad del equipo, las secciones y cuál está activa. En celular se convierte en un panel que se abre con ☰.",
+    "hice": "Configuré las rutas con React Router y armé el Layout con la sidebar: muestra la identidad del sitio, las secciones y cuál está activa. En celular se convierte en un panel que se abre con ☰.",
     "decidi": "Agregar un vercel.json que manda todas las rutas a index.html, para poder entrar directo a una sección o recargarla sin que Vercel devuelva un 404.",
     "resolvi": "El panel de celular se cierra con Escape, tocando el fondo o al elegir una sección, y mientras está abierto la página de atrás no scrollea.",
     "tags": ["Navegación", "Accesibilidad"]
@@ -93,7 +93,7 @@
     "fecha": "2026-10-24",
     "titulo": "Portada para un solo integrante",
     "resumen": "Adapté la portada del TP1 para que no quede vacía con una sola persona.",
-    "hice": "Armé la portada con una presentación propia (nombre del equipo, descripción e ilustración de la luna), la tarjeta del integrante y accesos a cada sección.",
+    "hice": "Armé la portada con una presentación propia (mi nombre, descripción e ilustración de la luna), la tarjeta del integrante y accesos a cada sección.",
     "decidi": "Como esta entrega es individual, la tarjeta del integrante se muestra grande y horizontal. Si se suman integrantes al JSON, pasa a una grilla sola.",
     "tags": ["Diseño", "Navegación"]
   },
@@ -131,7 +131,7 @@
     "fecha": "2026-10-24",
     "titulo": "Ilustraciones propias",
     "resumen": "Reemplacé la luna genérica del tema por ilustraciones hechas para el sitio.",
-    "hice": "Sumé una ilustración nueva en la portada (luna, vinilo, pokébola, código y notas musicales), un logo para el equipo y un dibujo en el encabezado de cada sección.",
+    "hice": "Sumé una ilustración nueva en la portada (luna, vinilo, pokébola, código y notas musicales), un logo propio y un dibujo en el encabezado de cada sección.",
     "decidi": "Hacerlas en SVG con la paleta del tema y armarlas con piezas reutilizables (vinilo, pokébola, nota, destello), para que todas las secciones se vean del mismo estilo y funcionen en modo claro y oscuro.",
     "resolvi": "En modo oscuro el vinilo se perdía contra el fondo: le agregué un borde rosa que aparece solo en ese modo.",
     "tags": ["Diseño", "IA"]

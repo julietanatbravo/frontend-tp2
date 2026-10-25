@@ -1,6 +1,6 @@
-# Equipo de Front end 33 · TP2
+# Julieta Bravo · TP2 de Frontend
 
-Sitio del equipo para el Trabajo Práctico N.º 2 de Frontend: el proyecto del TP1, ahora hecho en React. Reúne el perfil de cada integrante, un top de canciones favoritas con búsqueda y filtro, un juego con la PokéAPI, el árbol de componentes de la aplicación y la bitácora del proceso.
+Mi sitio para el Trabajo Práctico N.º 2 de Frontend: el proyecto del TP1, ahora hecho en React. Reúne mi perfil, un top de canciones favoritas con búsqueda y filtro, un juego con la PokéAPI, el árbol de componentes de la aplicación y la bitácora del proceso.
 
 🔗 **Sitio publicado:** [frontend-tp2.vercel.app](https://frontend-tp2.vercel.app/)
 📦 **Repositorio:** [github.com/julietanatbravo/frontend-tp2](https://github.com/julietanatbravo/frontend-tp2)
@@ -29,7 +29,7 @@ Todas se recorren desde la sidebar, que marca la sección activa y en celular se
 
 | Sección | Ruta | Qué tiene |
 | --- | --- | --- |
-| Portada | [`/`](https://frontend-tp2.vercel.app/) | Presentación del equipo, tarjeta de cada integrante y accesos a todas las secciones |
+| Portada | [`/`](https://frontend-tp2.vercel.app/) | Presentación, mi tarjeta de integrante y accesos a todas las secciones |
 | Perfil | [`/integrantes/julieta`](https://frontend-tp2.vercel.app/integrantes/julieta) | Datos, habilidades y favoritos, con una pokébola que muestra un Pokémon favorito al azar (PokéAPI) |
 | Canciones | [`/canciones`](https://frontend-tp2.vercel.app/canciones) | 20 canciones desde un JSON local, con búsqueda por texto, filtro por artista, vista detallada y fragmentos de 30 segundos |
 | ¿Es eficaz? | [`/pokemon`](https://frontend-tp2.vercel.app/pokemon) | Juego con la PokéAPI: dos Pokémon al azar y hay que adivinar el multiplicador de daño. Tiene niveles de dificultad, mensajes de carga y de error, y reintento |
@@ -90,7 +90,7 @@ frontend-tp2/
 │   ├── components/
 │   │   ├── home/          # Portada (MemberCard, SectionCard)
 │   │   ├── illustrations/ # Ilustraciones SVG propias: portada, logo y encabezados de sección
-│   │   ├── layout/        # Layout, Sidebar y Brand (identidad del equipo)
+│   │   ├── layout/        # Layout, Sidebar y Brand (identidad del sitio)
 │   │   ├── log/           # Bitácora (LogEntry)
 │   │   ├── pokemon/       # Juego "¿Es eficaz?" (PokéAPI)
 │   │   ├── profile/       # Perfil de integrante (FavoritePokemon, FavoriteList)
@@ -98,7 +98,7 @@ frontend-tp2/
 │   │   ├── tree/          # Árbol de componentes (TreeNode, TreeLegend)
 │   │   ├── ui/            # Componentes base: Button, Card, Input, Badge, Modal, ConfirmDialog, Disclosure, SegmentedControl
 │   │   └── ThemeToggle.jsx
-│   ├── data/              # Datos locales en JSON (equipo, integrantes, canciones, bitácora…)
+│   ├── data/              # Datos locales en JSON (sitio, integrantes, canciones, bitácora…)
 │   ├── hooks/             # useTheme, usePokemonRound, useAudioPreview
 │   ├── pages/             # Una página por ruta
 │   ├── services/          # Consultas a la PokéAPI

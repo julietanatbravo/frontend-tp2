@@ -44,7 +44,7 @@ function Sidebar({ id, open, onClose }) {
 
         <div>
           <p className="mb-2 px-3 text-small font-bold uppercase tracking-widest text-fg-muted">
-            Integrantes
+            {integrantes.length === 1 ? 'Integrante' : 'Integrantes'}
           </p>
           <ul className="grid gap-1">
             {integrantes.map((integrante) => (

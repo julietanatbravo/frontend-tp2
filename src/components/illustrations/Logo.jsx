@@ -1,4 +1,4 @@
-// Logo del equipo: luna creciente con un destello (el mismo dibujo que el favicon)
+// Logo del sitio: luna creciente con un destello (el mismo dibujo que el favicon)
 function Logo({ className = '' }) {
   return (
     <svg viewBox="0 0 32 32" className={className} aria-hidden="true">

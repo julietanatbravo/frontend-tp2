@@ -1,6 +1,6 @@
 import { Crescent, MusicNote, Pokeball, Sparkle, Vinyl } from './Shapes'
 
-// Ilustración de la portada: la luna del equipo rodeada de lo que hay en el sitio
+// Ilustración de la portada: la luna del sitio rodeada de lo que hay en el sitio
 // (canciones, Pokémon y código). Hecha en SVG con la paleta del tema.
 function HeroIllustration() {
   return (

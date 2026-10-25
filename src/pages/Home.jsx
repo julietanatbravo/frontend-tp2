@@ -3,9 +3,9 @@ import MemberCard from '../components/home/MemberCard'
 import HeroIllustration from '../components/illustrations/HeroIllustration'
 import SectionCard from '../components/home/SectionCard'
 import Badge from '../components/ui/Badge'
-import equipo from '../data/equipo.json'
 import integrantes from '../data/integrantes.json'
 import secciones from '../data/secciones.json'
+import sitio from '../data/sitio.json'
 
 function SectionTitle({ eyebrow, title, children }) {
   return (
@@ -25,24 +25,24 @@ function Home() {
     <div className="grid gap-16">
       <section className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
         <div>
-          <Badge className="animate-fade-up">✨ {equipo.bajada}</Badge>
+          <Badge className="animate-fade-up">✨ {sitio.bajada}</Badge>
           <h1
             className="mt-4 animate-fade-up text-[clamp(2.4rem,5vw,3.5rem)] leading-[1.05]"
             style={{ animationDelay: '.1s' }}
           >
-            {equipo.nombre}
+            {sitio.nombre}
           </h1>
           <p className="mt-5 max-w-xl animate-fade-up text-lg text-fg-muted" style={{ animationDelay: '.2s' }}>
-            {equipo.descripcion}
+            {sitio.descripcion}
           </p>
           <div className="mt-8 flex animate-fade-up flex-wrap gap-3" style={{ animationDelay: '.3s' }}>
             {soloIntegrante ? (
               <Link to={`/integrantes/${soloIntegrante.id}`} className="btn btn-primary">
-                Conocé a {soloIntegrante.nombreCorto}
+                Ver mi perfil
               </Link>
             ) : (
               <a href="#integrantes" className="btn btn-primary">
-                Conocé al equipo
+                Conocé a los integrantes
               </a>
             )}
             <Link to="/bitacora" className="btn btn-secondary">
@@ -55,8 +55,8 @@ function Home() {
       </section>
 
       <section id="integrantes" className="scroll-mt-20">
-        <SectionTitle eyebrow="01 · Equipo" title="Integrantes">
-          {soloIntegrante ? equipo.nota : 'Tocá un nombre para ver su perfil.'}
+        <SectionTitle eyebrow="01 · Sobre mí" title={soloIntegrante ? 'Integrante' : 'Integrantes'}>
+          {soloIntegrante ? sitio.nota : 'Tocá un nombre para ver su perfil.'}
         </SectionTitle>
         <div className={soloIntegrante ? 'grid' : 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3'}>
           {integrantes.map((integrante) => (
