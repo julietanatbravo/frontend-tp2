@@ -37,6 +37,7 @@ frontend-tp2/
 │   ├── components/
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
+│   │   ├── profile/         # Perfil de integrante (FavoritePokemon, FavoriteList)
 │   │   ├── songs/           # Listado de canciones (SongCard, SongFilters)
 │   │   ├── tree/            # Árbol de componentes (TreeNode, TreeLegend)
 │   │   ├── ui/              # Componentes base: Button, Card, Input, Badge, ConfirmDialog, Disclosure, SegmentedControl

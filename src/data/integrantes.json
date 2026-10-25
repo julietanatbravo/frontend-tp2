@@ -2,6 +2,22 @@
   {
     "id": "julieta",
     "nombre": "Julieta Natalia Bravo",
-    "nombreCorto": "Julieta"
+    "nombreCorto": "Julieta",
+    "foto": "/integrantes/julieta.jpg",
+    "ciudad": "CABA",
+    "edad": 27,
+    "descripcion": "Sigo en el camino del aprendizaje en la tecnicatura de desarrollo de software mientras trabajo en una tienda relacionada a lo geek.",
+    "habilidades": ["Diseño", "Planificación", "Testing", "Documentación"],
+    "peliculas": [
+      { "titulo": "Kill Bill: Volumen 1 y 2", "dato": "Quentin Tarantino, 2003 y 2004" },
+      { "titulo": "Orgullo y prejuicio", "dato": "Joe Wright, 2005" },
+      { "titulo": "Nueve reinas", "dato": "Fabián Bielinsky, 2000" }
+    ],
+    "discos": [
+      { "titulo": "Sin restricciones", "dato": "Miranda!, 2004" },
+      { "titulo": "La mosca y la sopa", "dato": "Patricio Rey y sus Redonditos de Ricota, 1991" },
+      { "titulo": "Please Please Me", "dato": "The Beatles, 1963" }
+    ],
+    "pokemonFavoritos": ["bulbasaur", "chikorita", "chansey", "clefairy"]
   }
 ]
