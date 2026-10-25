@@ -8,7 +8,12 @@
     "anio": 1986,
     "duracion": 335,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/52/21/c0522174-a3c2-2a4f-ae2d-fbacd13e8a94/2307f421-5360-4bfa-84b4-077f94259eab.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/f4/30/f4f43022-b81c-a6d4-aa1d-034fae451fcb/mzaf_18040638888006677192.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/f4/30/f4f43022-b81c-a6d4-aa1d-034fae451fcb/mzaf_18040638888006677192.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1986-01-10",
+    "pista": 7,
+    "totalPistas": 9,
+    "appleMusic": "https://music.apple.com/ar/album/ji-ji-ji/1722345908?i=1722345916"
   },
   {
     "id": 2,
@@ -19,7 +24,12 @@
     "anio": 1996,
     "duracion": 429,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/06/fa/f3/06faf3af-cb4a-5efe-2d2b-f4876d52386b/b51bc03a-b9da-4f37-b111-54930f1ffb78.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/92/30/f9923092-a8da-f6d8-c1c0-7e3ca0b99c7a/mzaf_16722027224655636921.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/92/30/f9923092-a8da-f6d8-c1c0-7e3ca0b99c7a/mzaf_16722027224655636921.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1996-10-07",
+    "pista": 11,
+    "totalPistas": 11,
+    "appleMusic": "https://music.apple.com/ar/album/juguetes-perdidos/1722376358?i=1722376820"
   },
   {
     "id": 3,
@@ -30,7 +40,12 @@
     "anio": 1988,
     "duracion": 441,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/be/39/3abe39ad-176a-bccf-f07e-830eb7990ef3/49fd04cf-a4d9-4532-bf59-ea436792875a.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/77/50/6b7750c5-0187-6a8d-4991-842d96d064ef/mzaf_8267423385023709708.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/77/50/6b7750c5-0187-6a8d-4991-842d96d064ef/mzaf_8267423385023709708.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1988-05-09",
+    "pista": 8,
+    "totalPistas": 8,
+    "appleMusic": "https://music.apple.com/ar/album/todo-un-palo/1722336096?i=1722336139"
   },
   {
     "id": 4,
@@ -41,7 +56,12 @@
     "anio": 1988,
     "duracion": 208,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/be/39/3abe39ad-176a-bccf-f07e-830eb7990ef3/49fd04cf-a4d9-4532-bf59-ea436792875a.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/de/d9/feded98e-a11c-c7b0-726e-44a5186c5a59/mzaf_16691233103587304749.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/de/d9/feded98e-a11c-c7b0-726e-44a5186c5a59/mzaf_16691233103587304749.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1988-05-09",
+    "pista": 5,
+    "totalPistas": 8,
+    "appleMusic": "https://music.apple.com/ar/album/vencedores-vencidos/1722336096?i=1722336106"
   },
   {
     "id": 5,
@@ -52,7 +72,12 @@
     "anio": 1986,
     "duracion": 238,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/52/21/c0522174-a3c2-2a4f-ae2d-fbacd13e8a94/2307f421-5360-4bfa-84b4-077f94259eab.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/3d/1e/653d1e7b-007f-4a5a-a461-aea4d2ca08db/mzaf_5210304151045055026.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/3d/1e/653d1e7b-007f-4a5a-a461-aea4d2ca08db/mzaf_5210304151045055026.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1986-01-10",
+    "pista": 9,
+    "totalPistas": 9,
+    "appleMusic": "https://music.apple.com/ar/album/ya-nadie-va-a-escuchar-tu-remera/1722345908?i=1722346098"
   },
   {
     "id": 6,
@@ -63,7 +88,12 @@
     "anio": 1991,
     "duracion": 212,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/fb/c2/3bfbc203-2fba-6e67-0926-5e9a8ef93ec3/b8c91b2b-6432-4491-9ce6-ce594f403640.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/15/73/da15737c-711c-f6ee-943a-2209f7a6ccb5/mzaf_8020566062067623145.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/15/73/da15737c-711c-f6ee-943a-2209f7a6ccb5/mzaf_8020566062067623145.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1991-09-27",
+    "pista": 7,
+    "totalPistas": 10,
+    "appleMusic": "https://music.apple.com/ar/album/el-pibe-de-los-astilleros/1722348395?i=1722348402"
   },
   {
     "id": 7,
@@ -74,7 +104,12 @@
     "anio": 1991,
     "duracion": 156,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/fb/c2/3bfbc203-2fba-6e67-0926-5e9a8ef93ec3/b8c91b2b-6432-4491-9ce6-ce594f403640.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/f2/bc/11f2bc40-89cc-d092-0b9b-1ccf135773c0/mzaf_15246403340554423410.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/f2/bc/11f2bc40-89cc-d092-0b9b-1ccf135773c0/mzaf_15246403340554423410.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1991-09-27",
+    "pista": 4,
+    "totalPistas": 10,
+    "appleMusic": "https://music.apple.com/ar/album/mi-perro-dinamita/1722348395?i=1722348399"
   },
   {
     "id": 8,
@@ -85,7 +120,12 @@
     "anio": 1993,
     "duracion": 232,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/67/b8/7c67b850-f4f0-daef-46ed-9db15060cdc1/bc1afefa-6356-4d7d-acad-2ac28fb77114.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/19/fa/8f19fa82-d454-da38-01af-850c035887ca/mzaf_9831716707826401768.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/19/fa/8f19fa82-d454-da38-01af-850c035887ca/mzaf_9831716707826401768.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1993-04-12",
+    "pista": 5,
+    "totalPistas": 13,
+    "appleMusic": "https://music.apple.com/ar/album/un-%C3%A1ngel-para-tu-soledad/1722371220?i=1722371225"
   },
   {
     "id": 9,
@@ -96,7 +136,12 @@
     "anio": 1985,
     "duracion": 247,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7e/79/83/7e79835a-0a77-2a35-fd60-677fa41f5e4b/d617bb55-cd75-4921-b73d-f0dc84f876c0.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/a8/45/76a8453b-b791-87fc-d5e2-97cdcb3f76e7/mzaf_3879579432302247248.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/a8/45/76a8453b-b791-87fc-d5e2-97cdcb3f76e7/mzaf_3879579432302247248.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1985-04-22",
+    "pista": 2,
+    "totalPistas": 11,
+    "appleMusic": "https://music.apple.com/ar/album/la-bestia-pop/1722367046?i=1722367048"
   },
   {
     "id": 10,
@@ -107,7 +152,12 @@
     "anio": 1989,
     "duracion": 240,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/9e/15/0d9e151d-4604-2d20-a7ac-0b206424b78d/6cf4f087-9575-4038-acff-ce45f30b8437.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/d2/c8/21d2c835-62a0-7c8b-0368-3d990447232e/mzaf_5135719794509648160.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/d2/c8/21d2c835-62a0-7c8b-0368-3d990447232e/mzaf_5135719794509648160.plus.aac.p.m4a",
+    "genero": "Rock",
+    "lanzamiento": "1989-07-04",
+    "pista": 9,
+    "totalPistas": 9,
+    "appleMusic": "https://music.apple.com/ar/album/nuestro-amo-juega-al-esclavo/1722339994?i=1722340006"
   },
   {
     "id": 11,
@@ -118,7 +168,12 @@
     "anio": 2017,
     "duracion": 210,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/70/92/96/70929633-cec2-561d-afa8-a19428055626/193483792392.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/38/e4/00/38e400c8-18c9-e1e0-aa0b-aa21e4d8863c/mzaf_3891642908802927897.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/38/e4/00/38e400c8-18c9-e1e0-aa0b-aa21e4d8863c/mzaf_3891642908802927897.plus.aac.p.m4a",
+    "genero": "Hip-Hop/Rap",
+    "lanzamiento": "2017-11-07",
+    "pista": 1,
+    "totalPistas": 1,
+    "appleMusic": "https://music.apple.com/ar/album/she-dont-give-a-fo/1461515029?i=1461515034"
   },
   {
     "id": 12,
@@ -129,7 +184,12 @@
     "anio": 2019,
     "duracion": 164,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/81/73/46817351-2fef-99e8-34f9-26b3ddcc6b99/194491166793.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/77/e8/8977e8d4-a6c6-4e54-b3e8-d081d17c4197/mzaf_3009411003806709487.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/77/e8/8977e8d4-a6c6-4e54-b3e8-d081d17c4197/mzaf_3009411003806709487.plus.aac.p.m4a",
+    "genero": "Hip-Hop/Rap",
+    "lanzamiento": "2019-08-07",
+    "pista": 1,
+    "totalPistas": 1,
+    "appleMusic": "https://music.apple.com/ar/album/goteo/1475300177?i=1475300179"
   },
   {
     "id": 13,
@@ -140,7 +200,12 @@
     "anio": 2022,
     "duracion": 221,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/15/4b/42154b41-bb6e-d25a-108b-7d0288158418/197187368204.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/2e/1f/e72e1f49-cae7-7c34-19e0-14a2ed6cbfb1/mzaf_8920237202141410728.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/2e/1f/e72e1f49-cae7-7c34-19e0-14a2ed6cbfb1/mzaf_8920237202141410728.plus.aac.p.m4a",
+    "genero": "Música latina",
+    "lanzamiento": "2022-11-16",
+    "pista": 1,
+    "totalPistas": 1,
+    "appleMusic": "https://music.apple.com/ar/album/duki-bzrp-music-sessions-vol-50-66/1653855603?i=1653855609"
   },
   {
     "id": 14,
@@ -151,7 +216,12 @@
     "anio": 2022,
     "duracion": 177,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/06/90/7a/06907a68-9491-17e8-ac07-cbbf87a2f92a/196626751669.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/59/c3/7b/59c37bf0-e83d-757b-49d2-17a98d0fd972/mzaf_7666530719964206825.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/59/c3/7b/59c37bf0-e83d-757b-49d2-17a98d0fd972/mzaf_7666530719964206825.plus.aac.p.m4a",
+    "genero": "Urbano latino",
+    "lanzamiento": "2022-06-02",
+    "pista": 1,
+    "totalPistas": 1,
+    "appleMusic": "https://music.apple.com/ar/album/antes-de-perderte/1620432280?i=1620432304"
   },
   {
     "id": 15,
@@ -162,7 +232,12 @@
     "anio": 2023,
     "duracion": 169,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/b2/49/3bb249bf-742a-8884-f2e5-25d3e354a1ea/197188006570.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/82/8e/22828ef4-ad21-2744-581f-61696b3fdf49/mzaf_17903242026896917502.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/82/8e/22828ef4-ad21-2744-581f-61696b3fdf49/mzaf_17903242026896917502.plus.aac.p.m4a",
+    "genero": "Hip-hop",
+    "lanzamiento": "2023-02-16",
+    "pista": 1,
+    "totalPistas": 1,
+    "appleMusic": "https://music.apple.com/ar/album/si-me-sobrara-el-tiempo/1667976744?i=1667977038"
   },
   {
     "id": 16,
@@ -173,7 +248,12 @@
     "anio": 1990,
     "duracion": 213,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/18/68/601868f7-68ba-9416-af42-b26b2f68035f/mzi.qyqtvoxs.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/6e/1a/956e1a22-49ff-3714-b5b9-c0e93be9e977/mzaf_4047724057514631474.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/6e/1a/956e1a22-49ff-3714-b5b9-c0e93be9e977/mzaf_4047724057514631474.plus.aac.p.m4a",
+    "genero": "Alternativa y rock en español",
+    "lanzamiento": "1990-08-07",
+    "pista": 6,
+    "totalPistas": 10,
+    "appleMusic": "https://music.apple.com/ar/album/de-m%C3%BAsica-ligera/321882757?i=321882958"
   },
   {
     "id": 17,
@@ -184,7 +264,12 @@
     "anio": 1986,
     "duracion": 292,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/e3/65/05e365e6-c318-e16d-0a27-1d896ba231f2/mzi.hvktyhmz.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/8f/6b/458f6b6a-a1f6-e7a3-3ad4-d605bfda8ef7/mzaf_1608050626101804857.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/8f/6b/458f6b6a-a1f6-e7a3-3ad4-d605bfda8ef7/mzaf_1608050626101804857.plus.aac.p.m4a",
+    "genero": "Alternativa y rock en español",
+    "lanzamiento": "1986-01-01",
+    "pista": 5,
+    "totalPistas": 8,
+    "appleMusic": "https://music.apple.com/ar/album/persiana-americana/321882453?i=321882520"
   },
   {
     "id": 18,
@@ -195,7 +280,12 @@
     "anio": 1988,
     "duracion": 346,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f0/1e/df/f01edf85-25f1-c245-1c18-bb0f1165740d/mzi.qaxmucxr.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/3b/6e/da3b6e6d-3710-5e3f-e865-439d521c194a/mzaf_6005761420914066592.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/3b/6e/da3b6e6d-3710-5e3f-e865-439d521c194a/mzaf_6005761420914066592.plus.aac.p.m4a",
+    "genero": "Alternativa y rock en español",
+    "lanzamiento": "1988-01-01",
+    "pista": 2,
+    "totalPistas": 9,
+    "appleMusic": "https://music.apple.com/ar/album/en-la-ciudad-de-la-furia/321882524?i=321882569"
   },
   {
     "id": 19,
@@ -206,7 +296,12 @@
     "anio": 1985,
     "duracion": 229,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/a1/b5/5da1b53d-7b9b-72f4-09ce-3c350c446322/mzi.fagqtmbs.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/77/8c/b4778c1f-08ee-2da6-12af-ed83d5e5645f/mzaf_3521100673436056484.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/77/8c/b4778c1f-08ee-2da6-12af-ed83d5e5645f/mzaf_3521100673436056484.plus.aac.p.m4a",
+    "genero": "Pop en español",
+    "lanzamiento": "1985-01-01",
+    "pista": 3,
+    "totalPistas": 10,
+    "appleMusic": "https://music.apple.com/ar/album/cuando-pase-el-temblor/321883378?i=321883388"
   },
   {
     "id": 20,
@@ -217,6 +312,11 @@
     "anio": 1990,
     "duracion": 145,
     "portada": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/18/68/601868f7-68ba-9416-af42-b26b2f68035f/mzi.qyqtvoxs.jpg/600x600bb.jpg",
-    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/95/4d/15954d88-b806-fd6d-4c89-db7c7a9558e5/mzaf_3372461885015874106.plus.aac.p.m4a"
+    "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/95/4d/15954d88-b806-fd6d-4c89-db7c7a9558e5/mzaf_3372461885015874106.plus.aac.p.m4a",
+    "genero": "Alternativa y rock en español",
+    "lanzamiento": "1990-08-07",
+    "pista": 9,
+    "totalPistas": 10,
+    "appleMusic": "https://music.apple.com/ar/album/t%C3%A9-para-tres/321882757?i=321883123"
   }
 ]

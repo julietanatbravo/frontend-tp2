@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
 import SongCard from '../components/songs/SongCard'
+import SongDetail from '../components/songs/SongDetail'
 import SongFilters from '../components/songs/SongFilters'
 import Button from '../components/ui/Button'
 import Card from '../components/ui/Card'
@@ -20,7 +21,11 @@ const artistOptions = [
 function Songs() {
   const [query, setQuery] = useState('')
   const [artist, setArtist] = useState(ALL)
+  const [detailId, setDetailId] = useState(null)
   const player = useAudioPreview()
+
+  const statusOf = (song) => (player.currentId === song.id ? player.status : 'idle')
+  const detailSong = songs.find((song) => song.id === detailId) ?? null
 
   const search = normalizeText(query.trim())
   const results = songs.filter((song) => {
@@ -60,9 +65,10 @@ function Songs() {
               <li key={song.id} className="grid">
                 <SongCard
                   song={song}
-                  status={player.currentId === song.id ? player.status : 'idle'}
+                  status={statusOf(song)}
                   progress={player.progress}
                   onToggle={player.toggle}
+                  onOpenDetail={(s) => setDetailId(s.id)}
                 />
               </li>
             ))}
@@ -76,6 +82,14 @@ function Songs() {
             </Button>
           </Card>
         )}
+
+        <SongDetail
+          song={detailSong}
+          status={detailSong ? statusOf(detailSong) : 'idle'}
+          progress={player.progress}
+          onToggle={player.toggle}
+          onClose={() => setDetailId(null)}
+        />
 
         <Disclosure summary="Sobre los datos: ¿de dónde salen?">
           <p>
@@ -92,8 +106,12 @@ function Songs() {
               se arman con los artistas que hay en el JSON.
             </li>
             <li>
-              Los datos de cada tema (álbum, año, duración, portada y fragmento de 30 segundos) se
-              tomaron una vez del catálogo público de iTunes y se guardaron en el JSON.
+              <strong>Detalle:</strong> tocando la portada o “Detalle” se abre una vista ampliada con
+              fecha de lanzamiento, número de pista, género y enlace a Apple Music.
+            </li>
+            <li>
+              Los datos de cada tema (álbum, fechas, duración, portada, fragmento de 30 segundos y
+              enlace) se tomaron una vez del catálogo público de iTunes y se guardaron en el JSON.
             </li>
           </ul>
         </Disclosure>
