@@ -21,10 +21,17 @@ function Modal({ open, onClose, labelledBy, size = 'sm', children }) {
     if (e.target === dialogRef.current) onClose()
   }
 
+  // Escape: en vez de dejar que el navegador lo cierre, se avisa y el estado decide.
+  // Así onClose se llama solo cuando cierra la persona, no cuando lo cierra el código.
+  const handleCancel = (e) => {
+    e.preventDefault()
+    onClose()
+  }
+
   return (
     <dialog
       ref={dialogRef}
-      onClose={onClose}
+      onCancel={handleCancel}
       onClick={handleClick}
       aria-labelledby={labelledBy}
       className={`m-auto max-h-[calc(100%-2rem)] overflow-y-auto rounded-card border border-border bg-surface-strong p-0 text-fg shadow-soft-lg backdrop:bg-night/50 backdrop:backdrop-blur-sm ${SIZES[size]}`}

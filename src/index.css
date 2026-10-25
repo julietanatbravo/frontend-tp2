@@ -5,6 +5,14 @@
   /* La pokébola tiembla mientras se busca el Pokémon */
   --animate-shake: shake 0.5s ease-in-out infinite;
 
+  /* Barra que se vacía mientras corre la cuenta regresiva (la duración la pone el componente) */
+  --animate-countdown: countdown 3s linear forwards;
+
+  @keyframes countdown {
+    from { transform: scaleX(1); }
+    to { transform: scaleX(0); }
+  }
+
   @keyframes shake {
     0%, 100% { transform: rotate(0deg); }
     25% { transform: rotate(-12deg); }

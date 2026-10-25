@@ -7,7 +7,7 @@ import ConfirmDialog from '../ui/ConfirmDialog'
 import AnswerOptions from './AnswerOptions'
 import DifficultySelector from './DifficultySelector'
 import PokemonCard from './PokemonCard'
-import RoundResult from './RoundResult'
+import RoundResultModal from './RoundResultModal'
 import ScoreBoard from './ScoreBoard'
 import TypeBadge from './TypeBadge'
 
@@ -44,7 +44,6 @@ function EffectivenessGame() {
 
   const level = levels.find((l) => l.id === levelId)
   const answered = answer !== null
-  const isCorrect = answered && answer === round?.multiplier
 
   const handleAnswer = (value) => {
     setAnswer(value)
@@ -150,19 +149,10 @@ function EffectivenessGame() {
           </p>
 
           <AnswerOptions answer={answer} correct={round.multiplier} onAnswer={handleAnswer} />
-
-          <div aria-live="polite">
-            {answered && (
-              <div className="grid gap-4">
-                <RoundResult round={round} isCorrect={isCorrect} />
-                <Button className="justify-self-center" onClick={handleNext}>
-                  Siguiente ronda →
-                </Button>
-              </div>
-            )}
-          </div>
         </>
       )}
+
+      <RoundResultModal round={status === 'ready' ? round : null} answer={answer} onNext={handleNext} />
     </div>
   )
 }
