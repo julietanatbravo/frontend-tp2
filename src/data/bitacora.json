@@ -119,6 +119,16 @@
   {
     "id": 13,
     "fecha": "2026-10-24",
+    "titulo": "El resultado del juego, en un modal",
+    "resumen": "Pasar de ronda era poco intuitivo: el botón podía quedar fuera de pantalla.",
+    "hice": "Moví el resultado de cada ronda a un modal que siempre queda a la vista, con el desglose del cálculo y quién atacó a quién.",
+    "decidi": "Que la siguiente ronda arranque sola a los 3 segundos, con una barra que muestra cuánto falta, y que el botón, Escape o un clic en el fondo permitan pasar antes.",
+    "resolvi": "El modal avisaba que se había cerrado también cuando lo cerraba el código, y eso pedía dos rondas seguidas. Lo cambié para que solo avise cuando cierra la persona.",
+    "tags": ["API", "Componentes"]
+  },
+  {
+    "id": 14,
+    "fecha": "2026-10-24",
     "titulo": "Ilustraciones propias",
     "resumen": "Reemplacé la luna genérica del tema por ilustraciones hechas para el sitio.",
     "hice": "Sumé una ilustración nueva en la portada (luna, vinilo, pokébola, código y notas musicales), un logo para el equipo y un dibujo en el encabezado de cada sección.",
@@ -127,7 +137,7 @@
     "tags": ["Diseño", "IA"]
   },
   {
-    "id": 14,
+    "id": 15,
     "fecha": "2026-10-24",
     "titulo": "Cómo usé la IA",
     "resumen": "Trabajé con Claude Code dentro de VS Code.",
