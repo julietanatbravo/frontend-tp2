@@ -1,14 +1,8 @@
 import { NavLink } from 'react-router'
 import integrantes from '../../data/integrantes.json'
+import secciones from '../../data/secciones.json'
 import ThemeToggle from '../ThemeToggle'
 import Brand from './Brand'
-
-const secciones = [
-  { to: '/canciones', label: 'Canciones', icon: '🎵' },
-  { to: '/pokemon', label: '¿Es eficaz?', icon: '⚡' },
-  { to: '/arbol', label: 'Árbol de componentes', icon: '🌳' },
-  { to: '/bitacora', label: 'Bitácora', icon: '📓' },
-]
 
 function SidebarLink({ to, icon, children, onNavigate, end }) {
   return (

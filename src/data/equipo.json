@@ -1,4 +1,6 @@
 {
   "nombre": "Equipo de Front end 33",
-  "bajada": "Frontend · TP2"
+  "bajada": "Frontend · TP2",
+  "descripcion": "Este es el sitio del equipo para el TP2 de Frontend: el proyecto del TP1, ahora hecho en React. Acá vas a encontrar el perfil de cada integrante, un top de canciones favoritas, un juego con la PokéAPI y cómo se fue armando todo.",
+  "nota": "Esta entrega es individual."
 }

@@ -35,6 +35,7 @@ frontend-tp2/
 │   └── component-tree.js  # Genera el árbol de componentes desde el código (plugin de Vite)
 ├── src/
 │   ├── components/
+│   │   ├── home/            # Portada (MemberCard, SectionCard, MoonIllustration)
 │   │   ├── layout/          # Layout, Sidebar y Brand (identidad del equipo)
 │   │   ├── pokemon/         # Juego "¿Es eficaz?" (PokéAPI)
 │   │   ├── profile/         # Perfil de integrante (FavoritePokemon, FavoriteList)

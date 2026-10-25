@@ -1,0 +1,26 @@
+[
+  {
+    "to": "/canciones",
+    "label": "Canciones",
+    "icon": "🎵",
+    "descripcion": "Mi top de 20 canciones, con buscador, filtro por artista y fragmentos para escuchar."
+  },
+  {
+    "to": "/pokemon",
+    "label": "¿Es eficaz?",
+    "icon": "⚡",
+    "descripcion": "Un juego con la PokéAPI: adiviná cuánto daño le hace el ataque de un Pokémon a otro."
+  },
+  {
+    "to": "/arbol",
+    "label": "Árbol de componentes",
+    "icon": "🌳",
+    "descripcion": "Cómo está armada la aplicación, generado automáticamente desde el código."
+  },
+  {
+    "to": "/bitacora",
+    "label": "Bitácora",
+    "icon": "📓",
+    "descripcion": "Qué hice, qué decidí y qué dificultades resolví en cada etapa."
+  }
+]
